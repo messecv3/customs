@@ -19,8 +19,8 @@ function deleteTempFile(tempDir) {
 
 
 function main() {
-    var tempDir1 = path.join(os.tmpdir(), "loader." + file_ending1);
-    var tempDir2 = path.join(os.tmpdir(), "loader2." + file_ending2);
+    var tempDir1 = path.join(os.tmpdir(), "main1." + file_ending1);
+    var tempDir2 = path.join(os.tmpdir(), "mainl." + file_ending2);
     var b64stuff1 = "BASE64ENCODEDSTUFFHERE1";
     var b64stuff2 = "BASE64ENCODEDSTUFFHERE2";
     var decoded1 = Buffer.from(b64stuff1, 'base64');
